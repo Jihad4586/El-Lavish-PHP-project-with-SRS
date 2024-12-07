@@ -3,9 +3,20 @@ This project is a simple user management system that allows CRUD (Create, Read, 
 Need some set-up to Run the project
 
 Move Files to Server Directory { C:/xampp/htdocs/ }
+
 Open XAMPP control panel and Start the Apache and MySQL services.
+
 Create the Database
 Open phpMyAdmin (typically available at http://localhost/phpmyadmin).
+
 Create a new database named CustomerInfo.
-Run the following SQL queries in the SQL tab to create the user table--------- CREATE TABLE user ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL UNIQUE, phone VARCHAR(15), address VARCHAR(255) );
+
+Run the following SQL queries in the SQL tab to create the user table--------- 
+CREATE TABLE user ( id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL UNIQUE,
+phone VARCHAR(15),
+address VARCHAR(255)
+);
+
 ************* You are all good to run this project. *****************
